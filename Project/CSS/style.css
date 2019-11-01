@@ -1,0 +1,252 @@
+body{
+	font-family: poppins;
+}
+
+@font-face{
+	font-family: Poppins;
+	src: url("fonts/poppins.ttf");
+	font-style: normal;
+	font-weight: 100;
+}
+/* navbar Css */
+#logo{
+	margin: 2% 5.4% 0% 6.8%;
+	background: black;
+	border: 1px solid black;
+	border-radius: 8px;
+}
+.navLink{
+	font-size: 18px;
+	line-height: 27px;
+	color: #1C1C1C;
+	opacity: 0.8;
+}
+#button{
+	border: 1px solid #E23744;
+	border-radius: 50px;
+	color: #E23744; 
+	padding: 8px 20px;
+	opacity: 1;
+}
+
+/* Text on home Page */
+.heading1{
+	margin-top: 218px;
+	line-height: 180%;
+    font-size: 48px;
+    font-weight: bold;
+    color: #1C1C1C;
+}
+.heading2{
+	margin-top: 2%;
+	margin-bottom: 5%;
+	font-size: 24px;
+	line-height: 180%;
+	color: #4D4D4D;
+	opacity: 0.81;
+}
+
+/* Register Now CSS */
+
+.homebutton{
+    border: 2px solid #E23744;
+    background-color: #E23744;
+    border-radius: 40px;
+    padding: 20px 28px;
+    text-align: center;
+    font-size: 18px;
+    box-shadow: 3px 6px 9px 6px #E2E2E2;
+}
+.knowButton{
+	border: 2px solid #E23744;
+	border-radius: 50px;
+	font-weight: 500;
+	padding: 20px 35px;
+	margin: 0 0 0 -10%;
+}
+
+/* icons css */
+
+.icon{
+	height: 40px;
+	width: 40px;
+	border: 1px solid #1C1C1C;
+	border-radius: 20px;
+	margin: 7.3% 1.6%;	
+}
+#ihover{
+	font-size: 18px;
+	color: #979797;
+	padding:10px 10px 5px 10px;
+    transition: transform .1s;
+}
+
+/*hover on icons */
+.icon:hover{
+	background: #E23744;
+	border: 10px  solid rgba(0, 0, 0, 0.1);
+	box-shadow: 0px 16px 21px rgba(0, 0, 0, 0.149655);
+	-ms-transform: scale(1.5); /* IE 9 */
+  	-webkit-transform: scale(1.5); /* Safari 3-8 */
+  	transform: scale(1.5);
+}
+#ihover:hover{
+	color: white;
+	padding: 0px 0px 1px 2px;
+}
+
+/* 2nd Page CSS */
+.second_page{
+	margin-top: 17.5%;
+}
+.heading3{
+	line-height: 180%;
+    font-size: 48px;
+    font-weight: bold;
+    color: #1C1C1C;
+}
+.heading6{
+	line-height: 180%;
+    font-size: 48px;
+    font-weight: bold;
+    color: #1C1C1C;
+}
+.heading4{
+	font-size: 24px;
+	line-height: 180%;
+	color: #4D4D4D;
+	opacity: 0.81;
+}
+.pic{
+	margin: -14% 0 0 0;
+}
+.box1{
+	margin: 6% -5% 0 1%;
+}
+.events1{
+	padding: 10px;
+    margin: 0 auto;
+    box-shadow:0px 16px 21px rgba(0, 0, 0, 0.05);
+    position: static;
+    border: 1px  #E2E2E2;
+    border-radius: 10px;
+    z-index: 999;
+}
+
+/* third Page */
+.heading5{
+	font-size: 24px;
+}
+
+.text{
+    margin: 2% 1.4%;
+    padding: 2% 0.7% 2% 2%;
+}
+.text:hover{
+	box-shadow: 0px 16px 21px rgba(0, 0, 0, 0.05);
+	border-radius: 20px;
+}
+/* Fourth Page */
+.fourth_page{
+	margin-top: 9.7%;
+}
+.aboutImage{
+	height: 85%;
+	width: 56%;
+	padding: 30px;
+	background-color: rgba(252,235,236,0.46);
+	border-radius: 20px;
+	margin: -7% 0% 7% 0;
+}
+.events2{
+    position: static;
+    border: 1px  #E2E2E2;
+    border-radius: 10px;
+    z-index: 999;
+}
+
+/* Fifth Page */
+
+.text2{
+    margin: 3% 0%  3% 7%;
+    padding: 1%;
+}
+.text2:hover{
+	box-shadow: 0px 16px 21px rgba(0, 0, 0, 0.05);
+	border-radius: 20px;
+}
+
+/* Sixth Page */
+.navLink2{
+	border-bottom: 4px solid transparent;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 180%;
+	color: #1C1C1C;
+	opacity: 0.81;
+	text-decoration: none;
+}
+.navLink2:hover{
+	border-bottom: 4px solid  #E23744;
+	color: #1C1C1C;
+}
+.box{
+	box-shadow: -6.08px 5.32px 22.81px rgba(228, 233, 235, 0.43);
+	border-radius: 20px;
+	padding: 16px;
+	position: static;
+	margin: 0 -7% 8% 6%;
+}
+#aarti{
+	margin-top: 60px
+}
+.register1{
+	box-shadow: -3.51532px 3.07591px 13.1882px rgba(228, 233, 235, 0.43);
+    border-radius: 40px;
+    padding: 20px 28px;
+    text-align: center;
+    font-size: 13.8763px;
+}
+#register1{
+	display: none;
+}
+
+/* eight Page */
+
+.eight_page{
+	background: #E23744;
+	margin-top: 9.3%;
+}
+.register{
+    border-radius: 40px;
+    padding: 20px 28px;
+    text-align: center;
+    font-size: 18px;
+}
+.circle{
+	height: 60px;
+	width: 60px;
+	border: 1px solid transparent;
+	border-radius: 60px;
+	background-color: white;
+	margin: 12% 2% 4% 3%; 
+	box-shadow: 0px 16px 21px rgba(0, 0, 0, 0.149655);
+}
+.circle1{
+	height: 60px;
+	width: 60px;
+	border-radius: 60px;
+	background: linear-gradient(270deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+	margin: 12% 2% 4% 3%; 
+	box-shadow: 0px 16px 21px rgba(0, 0, 0, 0.149655);
+}
+#display2{
+	display: none;
+}
+.change1{
+	margin-right: -10%;
+	z-index: 999;
+}
+.last{
+	margin: 5% 9%;
+}
